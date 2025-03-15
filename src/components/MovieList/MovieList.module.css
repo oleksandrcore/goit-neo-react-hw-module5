@@ -1,0 +1,16 @@
+.list {
+  list-style: initial;
+  padding: 20px 40px;
+  margin: initial;
+}
+
+.link {
+  color: blue;
+  margin-bottom: 3px;
+  text-decoration: underline;
+  display: list-item;
+}
+
+.link::marker {
+  color: black;
+}

@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 15px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.author {
+  font-weight: 500;
+  font-size: 18px;
+}
